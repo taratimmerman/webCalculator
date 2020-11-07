@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.calcBtn {
+    background-color: #202125;
+    color: white;
+    width: 25px;
+    height: 45px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 3px;
+}
+
+.calcBtn:hover {
+    font-weight: bold;
+}
+
+.row {
+    display: table;
+    table-layout: fixed;
+    width: 225px;
+}
+
+.column {
+    display: table-cell;
+}
+
+#calcZero {
+    width: 52.6666667px;
+    border-radius: 0 0 0 7px;
+}
+
+#calcClear {
+    width: 52.6666667px;
+}
+
+#calcDisplayVal {
+    height: 80px;
+    color: white;
+    text-align: right;
+    font-size: 48px;
+    background-color: #2f3034;
+    overflow: hidden;
+    white-space: nowrap;
+    padding: 12px;
+    border-radius: 7px 7px 0 0;
+}
+
+.calcBtnOperator {
+    background-color: #202125;
+    color: #8d9cbb;
+}
+
+.calcBtnOperator:hover {
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+#calcEquals {
+    border-radius: 0 0 7px 0;
+}
+
+#calcParent {
+    margin-left: calc(50% - 110px);
+}
